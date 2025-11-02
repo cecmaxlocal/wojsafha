@@ -1,0 +1,28 @@
+FreeBASIC is an open-source compiler for the BASIC programming language, licensed under the GNU General Public License (GPL) version 2 or later. Here are key points about FreeBASIC licensing:
+
+- The FreeBASIC compiler itself (fbc) is released under the GPL license, which means the compiler source code is free to use, modify, and distribute under GPL terms.[1][3][4][5]
+
+- Programs you compile using FreeBASIC do NOT automatically become GPL. Your own source code is yours to license as you wish, unless you link or modify GPL-licensed FreeBASIC source code components.[3][1]
+
+- The FreeBASIC graphics library (fbgfx) is licensed under the LGPL. This library allows linking without requiring your entire program to be LGPL, but if you modify fbgfx itself, you must share those modifications.[7][1]
+
+- The runtime library uses some dependencies like LibFFI under permissive licenses, allowing wide use.[10][7]
+
+- Commercial use of programs compiled with FreeBASIC is allowed, as long as you respect the licenses of individual components you use, especially when linking to libraries such as fbgfx.[1][3]
+
+In summary, FreeBASIC is freely usable and distributable under GPL for the compiler itself. Your compiled programs are yours unless they incorporate or modify GPL/LGPL components. The LGPL graphics library provides flexibility for commercial use, but modifications to it must be shared.
+
+For more details, see the official FreeBASIC wiki and forums on licensing.[4][7][10][1]
+
+If you want help applying or complying with FreeBASIC licenses in your projects, feel free to ask.
+
+[1](https://freebasic.net/forum/viewtopic.php?t=9727)
+[2](https://sharpbasic.com/downloads/mlgpl.html)
+[3](https://www.freebasic.net/forum/viewtopic.php?t=10574)
+[4](http://www.wildgardenseed.com/RQDP/FreeBasic/FBhelp/contents.html)
+[5](https://freebasic.net/forum/viewtopic.php?t=31075)
+[6](https://en.wikipedia.org/wiki/FreeBASIC)
+[7](https://www.freebasic.net/wiki/wikka.php?wakka=GnuLicenses)
+[8](https://www.freebasic.net/forum/viewtopic.php?t=18886)
+[9](https://sourceforge.net/projects/fbc/)
+[10](https://github.com/freebasic/fbc)

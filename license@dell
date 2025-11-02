@@ -1,0 +1,39 @@
+Dell machines often come with OEM Windows licenses embedded in the BIOS/UEFI firmware. These licenses are used to automatically activate Windows without requiring manual input of a product key. 
+
+To check or manage licenses on Dell machines, here are key points and PowerShell commands:
+
+- You can retrieve the embedded Windows product key from the BIOS with this PowerShell command:  
+  ```powershell
+  (Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey
+  ```
+  This returns the original OEM license key if present.  
+- To manually install this key and attempt activation (for example after OS reinstall), you can use `slmgr.vbs` commands with the extracted key:  
+  ```powershell
+  $Key = (Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey
+  slmgr.vbs -ipk $Key
+  slmgr.vbs -ato
+  ```
+  This sets the product key and tries to activate Windows.  
+- Dell also provides PowerShell modules such as "Dell Command | PowerShell Provider" to manage BIOS and system features, but activation is mostly handled via built-in Windows tooling.  
+- If activation fails after reinstall, using the built-in Windows Activation Troubleshooter or contacting Dell Support is advised.  
+- For Office licenses pre-installed in Dell machines, scripted detection can be complex and may require different approaches.
+
+In summary, Dell machines typically have OEM licenses embedded in firmware accessible via PowerShell and WMI, and activation can be automated using retrieved product keys and slmgr.vbs commands.
+
+References:
+- Retrieve OEM key: `(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey`[1][3]
+- Automate key installation and activation: `slmgr.vbs -ipk <key>`, `slmgr.vbs -ato`[1]
+- Dell Command PowerShell Provider for system management:[5]
+- Activation troubleshooting and guides from Dell:[6][8]
+
+This method helps automate and verify license management on Dell computers effectively via PowerShell.
+
+[1](https://www.reddit.com/r/PowerShell/comments/suvgtk/powershell_command_to_activate_windows_from/)
+[2](https://www.youtube.com/watch?v=GuH4bFrdB1c)
+[3](https://learn.microsoft.com/en-us/answers/questions/4154992/how-do-i-activate-windows-on-my-dell)
+[4](https://www.reddit.com/r/PowerShell/comments/1i6tapz/using_powershell_to_query_if_a_computer_includes/)
+[5](https://www.dell.com/support/kbdoc/en-us/000177240/dell-command-powershell-provider)
+[6](https://www.dell.com/support/kbdoc/en-us/000126935/requirements-for-dell-windows-10-activation)
+[7](https://www.dell.com/support/kbdoc/en-us/000190601/instructions-on-how-to-activate-microsoft-perpetual-and-software-subscriptions)
+[8](https://www.youtube.com/watch?v=E0ijmk4JWgQ)
+[9](https://www.dell.com/support/kbdoc/en-mw/000257429/window-server-diagnosing-licensing-and-activation-issues-with-the-slmgr-command)

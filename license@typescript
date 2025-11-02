@@ -1,0 +1,22 @@
+TypeScript is an open-source programming language developed and maintained by Microsoft. Regarding its license:
+
+- TypeScript is licensed under the Apache License 2.0 (Apache-2.0), a permissive open-source license.[1][2][3][4]
+
+- The Apache 2.0 License allows you to freely use, modify, distribute, and sublicense TypeScript in both open source and proprietary projects, with minimal restrictions. It requires preservation of the license, copyright notices, and a grant of patent rights.  
+
+- TypeScript is a typed superset of JavaScript that compiles to plain JavaScript and is designed for scalable, large-scale application development.[2][3]
+
+- The source code for the TypeScript compiler and related projects is publicly available on GitHub under Apache-2.0.[4]
+
+In summary, TypeScript’s Apache 2.0 license makes it flexible for commercial and open source use, allowing broad adoption and modification while protecting contributors and users.
+
+If you want details on how to comply with or apply the Apache 2.0 license for TypeScript or TypeScript-based projects, feel free to ask.[1][4]
+
+[1](https://stackoverflow.com/questions/27390641/typescript-license)
+[2](https://www.tutorialsteacher.com/typescript/typescript-overview)
+[3](https://en.wikipedia.org/wiki/TypeScript)
+[4](https://github.com/microsoft/TypeScript)
+[5](https://forum.freecodecamp.org/t/what-is-typescript/142681)
+[6](https://www.typescriptlang.org)
+[8](https://simple.wikipedia.org/wiki/TypeScript)
+[9](https://strapi.io/blog/what-is-typescript)

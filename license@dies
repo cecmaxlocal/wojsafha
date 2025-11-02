@@ -1,0 +1,20 @@
+OEM licenses, like those on Dell machines, do not truly "expire" in the conventional sense; they are intended to last the lifetime of the hardware they came with. However, some users report license expiration messages or activation warnings, often due to issues like:
+
+- Volume licenses accidentally installed instead of OEM licenses, which do require reactivation periodically.[1]
+- Activation checks with Microsoft servers every ~180 days; failure to verify can lead to temporary deactivation notices.[2]
+- Hardware changes or reinstallations wiping out OEM license information leading to license loss or inability to activate.[3]
+- Secondhand purchase scenarios where licensing status is unclear, causing apparent expiring license messages.[4]
+
+"Resurrecting" a license typically means fixing activation, which can be done by:
+
+- Running Windows Activation Troubleshooter to reactivate using embedded OEM keys.[2]
+- Extracting and reinstalling the OEM product key from BIOS via PowerShell or tools, then reactivating with `slmgr.vbs`.[10]
+- Contacting Dell Support for license recovery or replacement in warranty or exceptional cases.[3]
+- Reinstalling Windows version matching OEM and performing clean activation (sometimes Windows 11 upgrade activates automatically on Dell hardware).[6]
+
+In practice, "dead" licenses caused by missing or unactivated keys can often be "resurrected" by these troubleshooting and reactivation steps, but OEM licenses remain non-transferable and tied to the original hardware.
+
+Therefore, while an OEM license does not expire like a subscription, its activation status can lapse, requiring reactivation processes to keep it "living" on the machine.[1][2][3]
+
+This understanding is vital to managing Dell OEM licenses effectively and knowing how to restore or maintain valid activation.
+

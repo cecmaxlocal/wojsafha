@@ -1,0 +1,27 @@
+Open source licenses govern the use, modification, and distribution of software provided under open source terms. Regarding Dell and open source software licensing:
+
+- Dell includes open source software components in many of their products and provides license notices and terms clearly in their open source license guides and documentation. Examples of common open source licenses Dell uses include Apache License 2.0, GPL, LGPL, BSD variants, MIT, Mozilla Public License, and others.[4][5][6]
+
+- Dell’s open source license guides provide details on licensing rights, obligations, and permitted usage for the various third-party open source components included with Dell software or firmware products, such as iDRAC and EMC Metro Node.[6][4]
+
+- Open source licenses typically allow users to freely use, modify, and distribute the software but may require attribution and disclosure of source code changes depending on the license type (copyleft vs permissive). Dell complies with these by providing source code or links as required.[5][4]
+
+- For proprietary Dell software, Dell issues distinct software licenses or EULAs separate from the open source components and clarifies this in their licensing agreements.[2][7]
+
+- Dell also provides tools and portals to manage licenses and subscriptions for their proprietary software, while open source usage is generally unrestricted under the specific licenses included.[9]
+
+In summary, Dell supports and distributes open source software under standard open source licenses, providing transparency on rights and obligations via license guides. Their proprietary software is licensed separately under commercial agreements.
+
+If you want to integrate or comply with Dell’s open source licensed components, reviewing their comprehensive open source license guides and respecting license terms is essential.[4][5][6]
+
+Feel free to ask for specific open source licenses or how to handle Dell’s open source components in your projects.
+
+[1](https://www.delltechnologies.com/asset/pl-pl/products/servers/industry-market/openmanage-portfolio-software-licensing-guide.pdf)
+[2](https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/community-edition-software-license-agreement.pdf)
+[3](https://i.dell.com/sites/content/business/smb/sb360/en/Documents/Dell-KACE-%20M300%20SoftwareLicenseComplianceWhitePaper.pdf)
+[4](https://www.dell.com/support/manuals/en-in/dell-emc-mn-215/mn_p_open_source_9.0/third-party-software-licenses?guid=guid-de948035-93f7-4d77-b3e5-dd701fc36d91&lang=en-us)
+[5](https://www.dell.com/support/manuals/en-us/dell-emc-metro-node/mn_p_open_source_licence_guide_8.0/common-development-and-distribution-license-cddl-version-10?guid=guid-22a333d7-d456-4046-9db3-33a898e65676&lang=en-us)
+[6](https://opensource.dell.com/releases/idrac9/3.36.36.37/LICENSES.html)
+[8](https://www.dell.com/support/manuals/en-us/dell-emc-metro-node/mn_pub_open_source_software/ogpl?guid=guid-521c22aa-0e1b-4f12-87f7-7dc2dd049ec4&lang=en-us)
+[9](https://www.dell.com/support/contents/en-us/videos/videoplayer/how-to-manage-software-licenses-and-subscriptions-in-dell-my-account/6372738247112)
+[10](https://www.cypherpunks.ca/dell.html)

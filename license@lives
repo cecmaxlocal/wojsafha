@@ -1,0 +1,13 @@
+Dell OEM licenses for Windows and other software are tied to the hardware on which they were originally installed and sold. These licenses are considered "lifetime" licenses for that specific machine but have the following key characteristics:
+
+- OEM licenses are non-transferable; they cannot legally be moved to another computer once assigned. If the Dell machine fails irreparably, the license "dies" with it.[1]
+- Windows OEM licenses on Dell machines often perform periodic activation checks (e.g., every 180 days). Lack of verification with Microsoft's servers can lead to deactivation notifications.[2]
+- Dell OEM licenses for Windows Server are attached physically to the server chassis with Certificate of Authenticity (COA) labels and cannot be reissued.[3][4]
+- OEM licenses differ from retail licenses mainly in transfer rights, support, and reusability. Retail licenses can be moved between machines, OEM cannot.[5][6]
+- Users have reported challenges with license activation after hardware changes or reinstallations, even within warranty, requiring Dell or Microsoft support intervention.[7][8]
+- Dell offers Microsoft OEM software solutions with standard return policies, typically with 30-day return periods from the invoice date.[9]
+
+In summary, Dell OEM licenses for Windows and software are permanently associated with the original Dell hardware. They provide lifetime licensing for that machine, but do not allow transfer or reuse on different devices, and require periodic activation validation for continued use.
+
+This licensing model is vital for understanding the "life" or validity of licenses on Dell machines and managing software compliance.[1][2][5]
+
